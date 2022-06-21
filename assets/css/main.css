@@ -1806,7 +1806,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		header br {
+		header br :disabled {
 			display: none;
 		}
 
