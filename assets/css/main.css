@@ -3716,7 +3716,7 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
-				#banner br {
+				#banner br :disabled {
 					display: none;
 				}
 
