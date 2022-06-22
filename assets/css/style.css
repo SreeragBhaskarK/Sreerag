@@ -1,0 +1,68 @@
+.canvas-body{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background: rgb(29, 29, 29);
+  overflow-x: hidden;
+}
+/*.h2-canvas{
+  color: #08fdd8;
+  width: 500px;
+  font-size: 3rem;
+  text-transform: none;
+  margin: none;
+  letter-spacing: none;
+  line-height: none;
+
+  
+
+
+} */
+
+#header-canvas {
+  font-size: 2rem;
+  color: #08fdd8;
+  margin-bottom: 30px;
+}
+
+#section-about-canvas{
+
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.text-zone3-canvas .p-canvas{
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+}
+.tech-canvas{
+  text-decoration: none;
+  color: #08fdd8;
+}
+
+@media screen and (min-width: 1200px) {
+  #header-canvas{
+    font-size: 2.5rem;
+
+  }
+
+  #section-about-canvas{
+  flex-direction: row;
+  padding-left: 13rem;
+
+  }
+
+    .text-zone3-canvas #header-canvas{
+    width: 500px;
+    font-size: 3rem;
+    }
+    .text-zone3-canvas .p-canvas{
+    width: 400px;
+    }
+   .skills-charts{
+    margin-right: 20%;
+   }
+}
+
