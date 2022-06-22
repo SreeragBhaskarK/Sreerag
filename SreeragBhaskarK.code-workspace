@@ -1,9 +1,7 @@
 {
-	"folders": [
-		{
-			"name": "SreeragBhaskarK",
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
