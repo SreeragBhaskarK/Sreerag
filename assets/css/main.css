@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
-	
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -15,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video  {
+section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -51,8 +53,6 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
-	
-	
 }
 
 mark {
@@ -162,16 +162,16 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	 h1, h2, h3, h4, h5, h6  {
+	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase; 
-	} 
+		text-transform: uppercase;
+	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a  { 
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -218,7 +218,6 @@ input, select, textarea {
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
-	
 
 	sub {
 		font-size: 0.8em;
@@ -1807,7 +1806,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		header br  :disabled {
+		header br :disabled {
 			display: none;
 		}
 
@@ -2761,7 +2760,7 @@ input, select, textarea {
 				display: block;
 			}
 
-				.spotlight br {
+				.spotlight  br   {
 					display: none;
 				}
 
@@ -3712,16 +3711,16 @@ input, select, textarea {
 				height: auto;
 				min-height: 0;
 			}
- 
-				#banner h2  {
+
+				#banner h2 {
 					font-size: 1.25em;
 				}
 
-				#banner br  :disabled {
+				#banner br :disabled {
 					display: none;
 				}
 
-				#banner .more :disabled  {
+				#banner .more :disabled {
 					display: none;
 				}
 
@@ -3980,7 +3979,7 @@ input, select, textarea {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
 
-	body.is-mobile.landing #page-wrapper :disabled {
+	body.is-mobile.landing #page-wrapper {
 		background: none;
 	}
 
@@ -3992,13 +3991,10 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
 		background-size: cover;
+		background-attachment: fixed;
 	}
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-
-	
