@@ -1,3 +1,8 @@
+span.skills{
+  text-transform: none;
+	font-size: 11px;
+}
+
 .canvas-body{
   font-family: sans-serif;
   color: rgb(255, 255, 255);
