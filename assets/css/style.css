@@ -1,3 +1,10 @@
+.not-visible{
+  visibility: hidden;
+
+}
+span.bold-text{
+  font-weight: bold;
+}
 span.skills{
   text-transform: none;
 	font-size: 11px;
