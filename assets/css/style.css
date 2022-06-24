@@ -107,7 +107,26 @@ span.skills{
 
 }
 
-@media screen and (min-width : 480px) and (max-width : 900px) {
+@media screen and (max-width:480px ) {
+  .h2-canvas {
+     font-size: 1.5rem;
+     line-height: 4.2rem;
+  }
+ 
+ 
+}
+
+@media screen and (min-width : 480px) and (max-width : 600px) {
+ 
+  .h2-canvas {
+    font-size: 2.5rem;
+    line-height: 6rem;
+    
+
+  }
+}
+
+@media screen and (min-width : 600px) and (max-width : 900px) {
  
   .h2-canvas {
   line-height: 4.9rem;
@@ -116,13 +135,7 @@ span.skills{
   }
 }
 
-@media screen and (max-width:480px ) {
- .h2-canvas {
-    font-size: 1.5rem;
-    line-height: 4.2rem;
- }
 
-}
 
 @media screen and (min-width : 900px) and (max-width : 1100px) {
  
