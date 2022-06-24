@@ -144,41 +144,6 @@ span.skills{
   
 }
 
-@media screen and (max-width:800px) {
-  #myCanvasContainer{
-    display: flex;
-  
-  }
-  #myCanvas{
-    width: 100%;
-    margin: auto;
-  }
-  
-}
-
-@media screen and (max-width:600px) {
-  #myCanvasContainer{
-    display: flex;
-  
-  }
-  #myCanvas{
-    width: 75%;
-    margin: auto;
-  }
-  
-}
-
-@media screen and (max-width:400px) {
-  #myCanvasContainer{
-    display: flex;
-  
-  }
-  #myCanvas{
-    width: 85%;
-    margin: auto;
-  }
-  
-}
 
 
 #header-canvas {
