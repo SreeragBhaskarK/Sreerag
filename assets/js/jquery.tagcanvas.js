@@ -1635,10 +1635,10 @@
           handlers[cid].push(['mousedown', MouseDown]);
           handlers[cid].push(['selectstart', Nop]);
         }
-        /*if  (this.wheelZoom ) {
+        if  (this.wheelZoom ) {
           handlers[cid].push(['mousewheel', MouseWheel]);
           handlers[cid].push(['DOMMouseScroll', MouseWheel]);
-        }*/
+        }
         if(this.scrollPause) {
           handlers[cid].push(['scroll', Scroll, window]);
         }
@@ -2366,7 +2366,7 @@
     txtOpt: true,
     txtScale: 2,
     frontSelect: false,
-    wheelZoom: true,
+    wheelZoom: false,
     zoomMin: 0.3,
     zoomMax: 3,
     zoomStep: 0.05,
@@ -2383,7 +2383,7 @@
     offsetX: 0,
     offsetY: 0,
     shuffleTags: false,
-    noSelect: false,
+    noSelect: true,
     noMouse: false,
     imageScale: 1,
     paused: false,
@@ -2429,6 +2429,8 @@
     window.TagCanvas = TagCanvas;
     jQuery.fn.tagcanvas = function(options, lctr) {
       var fn = {
+        
+
         pause: function() {
           $(this).each(function() { tccall('Pause',$(this)[0].id); });
         },
